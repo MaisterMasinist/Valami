@@ -11,12 +11,11 @@ public class Main {
         System.out.print("> ");
         int year = scanner.nextInt();
 
-        if((year>=1582) && (year%4 == 0))
+        if((year>=1582) && (year%4 == 0) && (year%400==0))
         {
           System.out.println(year + " SZÖKŐÉV");
         }
-        else if((year%100 == 0) && (year%400==0)) System.out.println("SZÖKŐÉV");
-        else System.out.println(year + "NEM SZÖKŐÉV");
+        else System.out.println(year + " NEM SZÖKŐÉV");
 
     }
 }
