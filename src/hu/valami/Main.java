@@ -169,7 +169,7 @@ public class Main {
 
         // 9. feladat
 
-        System.out.println("Milyen evszak van ma?");
+        /*System.out.println("Milyen evszak van ma?");
         String evszak = scanner.nextLine();
 
         boolean tel = evszak.equalsIgnoreCase("december")
@@ -195,7 +195,20 @@ public class Main {
             System.out.println("Osz");
         } else {
             System.out.println("Nem meghatarozhato!");
-        }
+        }*/
+
+        // 10. feladat
+
+        /*System.out.println("Kerek egy szamot!");
+        int szam = scanner.nextInt();
+        int x = 1;
+
+        while (x<szam){
+            System.out.println(x++);
+        }*/
+
+
+
 
 
 
