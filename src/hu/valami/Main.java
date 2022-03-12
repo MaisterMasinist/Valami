@@ -19,7 +19,7 @@ public class Main {
         }
         else System.out.println(year + " NEM SZÖKŐÉV");*/
 
-        System.out.println("Kérek egy számot");
+        System.out.println("Kérek egy számot!");
         int szam = scanner.nextInt();
         int eredmeny;
         int counter = 0;
