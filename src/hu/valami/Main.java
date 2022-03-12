@@ -51,7 +51,7 @@ public class Main {
         int eredmeny;
         int counter = 0;
 
-        if(szam > 0)
+        if(szam >= 0)
         {
             for(int i = 1; i<=szam; i++)
             {
