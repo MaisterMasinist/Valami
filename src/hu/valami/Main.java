@@ -7,7 +7,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Kérek egy évszámot:");
+        //1. feladat
+
+      /*  System.out.println("Kérek egy évszámot:");
         System.out.print("> ");
         int year = scanner.nextInt();
 
@@ -15,7 +17,31 @@ public class Main {
         {
           System.out.println(year + " SZÖKŐÉV");
         }
-        else System.out.println(year + " NEM SZÖKŐÉV");
+        else System.out.println(year + " NEM SZÖKŐÉV");*/
+
+        System.out.println("Kérek egy számot");
+        int szam = scanner.nextInt();
+        int eredmeny;
+        int counter = 0;
+
+        if(szam > 0)
+        {
+            for(int i = 1; i<=szam; i++)
+            {
+                eredmeny = szam/i;
+
+                if(szam%i == 0)
+                {
+                    System.out.println(eredmeny);
+                    counter++;
+                }
+            }
+            System.out.println("osztók száma: " + counter);
+        }
+        else System.out.println("Nem természetes szám!");
+
+
+
 
     }
 }
